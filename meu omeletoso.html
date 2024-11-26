@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receita omelete</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+        .outfit {
+            font-family: "Outfit", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+}
+
+        .young-serif-regular {
+            font-family: "Young Serif", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .brown {
+            font-family: "Young Serif", serif;
+            font-weight: 400;
+            font-style: normal;
+            color: hsl(14, 45%, 36%);
+        }
+
+        .rosinha {
+            font-family: "Outfit", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: hsl(332, 51%, 32%);
+        }        
+        .young-serif-regular:first-of-type {
+            font-family: "Young Serif", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        img {
+            border-radius: 15px;
+           
+           
+        }
+
+        .site {
+            background-color: white;
+            color: black;
+            border-radius: 15px;
+            padding: 50px;
+            width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+       
+            
+        
+       
+        ul ol{
+            list-style-position: outside;
+        }
+        li{
+            padding: 10px;
+        }
+        .contadores li::marker{
+            color: #8D412A;
+        }
+        
+        body {
+            background-color: hsl(328, 100%, 96%);
+        }
+
+        .prep {
+            background-color: hsl(330, 100%, 94%);
+            border-radius: 15px;
+            padding: 10px;
+            margin: 5px;
+        }
+        table{
+        text-align: left;
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 100%;
+        padding: 10px;
+        border-collapse: collapse;
+       
+        }
+        td, th{
+            padding: 8px;
+            border-bottom: 1px solid hsl(36, 2%, 56%);
+            
+        }
+    </style>
+</head>
+<body class="outfit">
+    <div class="site"> 
+        <div id="top">
+            <img src="imagem/image-omelette.jpeg" class="imagem" width="800">
+        </div>
+        <!-- Breve descrição -->
+        <div>
+            <h1 class="young-serif-regular">
+                Simple Omelette Recipe
+            </h1>
+            <p>
+                An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+            </p>
+        </div>
+        <!-- Tempo de preparação -->
+        <div class="prep">    
+            <ul class="contadores2">
+                <h3 class="rosinha">Preparation time</h3>
+                <li><strong>Total:</strong> Approximately 10 minutes</li>
+                <li><strong>Preparation:</strong> 5 minutes</li>
+                <li><strong>Cooking:</strong> 5 minutes</li>
+            </ul>
+        </div>
+        <!-- Ingredientes -->
+        <div>
+            <h2 class="brown">Ingredients</h2>
+            <ul>
+                <li>2-3 large eggs</li>
+                <li>Salt, to taste</li>
+                <li>Pepper, to taste</li>
+                <li>1 tablespoon of butter</li>
+                <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs.</li>
+            </ul>
+        </div>
+        <hr>
+        <!-- Instruções -->
+        <div>
+            <h2 class="brown">Instructions</h2>
+            <ol class="contadores">
+                <li>
+                    <strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+                    You can add a tablespoon of water or milk for a fluffier texture.
+                </li>
+                <li>
+                    <strong>Heat the pan:</strong> Place a non-stick frying pan over medium heat and add butter or oil.
+                </li>
+                <li>
+                    <strong>Cook the omelette:</strong> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+                    the eggs evenly coat the surface.
+                </li>
+                <li>
+                    <strong>Add fillings (optional):</strong> When the eggs begin to set at the edges but are still slightly runny in the 
+                    middle, sprinkle your chosen fillings over one half of the omelette.
+                </li>
+                <li>
+                    <strong>Fold and serve:</strong> As the omelette continues to cook, carefully lift one edge and fold it over the 
+                    fillings. Let it cook for another minute, then slide it onto a plate.
+                </li>
+                <li>
+                    <strong>Enjoy:</strong> Serve hot, with additional salt and pepper if needed.
+                </li>
+            </ol>
+        </div>
+        <hr>
+        <!-- Informações Nutricionais -->
+        <div>
+            <h2 class="brown">Nutrition</h2>
+            The table below shows nutritional values per serving without the additional fillings.
+            <table class="tabela" border-bottom="1" >
+                <tr>
+                    <td>Calories</td>
+                    <td>277kcal</td>
+                </tr>
+               
+                <tr>
+                    <td>Carbs</td>
+                    <td>0g</td>                
+                </tr>
+              
+                <tr>
+                    <td>Protein</td>
+                    <td>20g</td>                
+                </tr>
+                <tr>
+                    <td>Fat</td>
+                    <td>22g</td>
+                </tr>
+            </table>
+        </div>
+    </div>     
+</body>
+</html>
